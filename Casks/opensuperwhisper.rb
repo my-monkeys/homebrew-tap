@@ -1,6 +1,6 @@
 cask "opensuperwhisper" do
-  version "0.3.3"
-  sha256 "c624c91254e8190eab5e61e1cf928b796763bd7bd39a7b83079492bd6b3c84b3"
+  version "0.4.0"
+  sha256 "ccce151bb6f0b515cb7a02a482bdcdac3715b9e594b0efe2084792fb32483ee6"
 
   url "https://github.com/my-monkeys/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper-#{version}.dmg",
       verified: "github.com/my-monkeys/OpenSuperWhisper/"
