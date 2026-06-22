@@ -9,7 +9,7 @@ cask "opensuperwhisper" do
   homepage "https://github.com/my-monkeys/OpenSuperWhisper"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "OpenSuperWhisper.app"
 
