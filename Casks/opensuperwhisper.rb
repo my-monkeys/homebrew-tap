@@ -1,13 +1,13 @@
 cask "opensuperwhisper" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.5.0"
+  version "0.6.0"
 
   on_arm do
-    sha256 "5c9c8df561341a2cbbc37a12263e2333a05e6d370b48c491c1b5c6a2e5e6496f"
+    sha256 "ddf662473023a193f4f36b282f6c6ba3047bd3824375df394dbe5a5a10d498a6"
   end
   on_intel do
-    sha256 "5ba69a66fdf1dc81c50d7e83fd430602c66c38b9b150eaa03de35f7e72715daf"
+    sha256 "1f3138c55b768f036d270bf6687bd3cfa26f3f8a5fb3f0f77fd1035b069ed392"
   end
 
   url "https://github.com/my-monkeys/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper-#{arch}-#{version}.dmg",
@@ -19,6 +19,7 @@ cask "opensuperwhisper" do
   depends_on macos: :sonoma
 
   app "OpenSuperWhisper.app"
+  binary "#{appdir}/OpenSuperWhisper.app/Contents/MacOS/OpenSuperWhisper", target: "opensuperwhisper"
 
   zap trash: [
     "~/Library/Application Support/fr.my-monkey.opensuperwhisper",
