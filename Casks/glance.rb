@@ -8,7 +8,7 @@ cask "glance" do
   desc "Mobile & desktop client for Umami and Plausible analytics"
   homepage "https://github.com/my-monkeys/glance"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Glance.app"
 
