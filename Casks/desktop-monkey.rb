@@ -1,6 +1,6 @@
 cask "desktop-monkey" do
-  version "2.2.0"
-  sha256 "03729fab584f3794eb139114d5cced22ab27830def782d13b42b035066fc854e"
+  version "2.4.0"
+  sha256 "b7916855b5143a2128fdb0a96001bd8b654b9ecf26aa9c744888d5e85bcefb3f"
 
   url "https://github.com/my-monkeys/desktop-monkey/releases/download/v#{version}/DesktopMonkey-#{version}.dmg",
       verified: "github.com/my-monkeys/desktop-monkey/"
