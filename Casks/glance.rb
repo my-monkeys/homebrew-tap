@@ -1,6 +1,6 @@
 cask "glance" do
-  version "1.8.0"
-  sha256 "ed8e56f4809ed6c5b52a10d1e94d8895c3e5c8e001b1cb6b41bf41293848c643"
+  version "1.9.0"
+  sha256 "1cb2547f78d875e4dd2c3ef3df3e0c2f48c89f7f830406a7b13c2baaa81f7427"
 
   url "https://github.com/my-monkeys/glance/releases/download/v#{version}/Glance-#{version}.dmg",
       verified: "github.com/my-monkeys/glance/"
