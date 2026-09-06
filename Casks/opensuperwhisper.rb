@@ -10,8 +10,7 @@ cask "opensuperwhisper" do
     sha256 "ecdf3a34454caa6694bd2106e382bdbad4e5f41168d25bb84c6ad6a26e43a5dd"
   end
 
-  url "https://github.com/my-monkeys/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper-#{arch}-#{version}.dmg",
-      verified: "github.com/my-monkeys/OpenSuperWhisper/"
+  url "https://github.com/my-monkeys/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper-#{arch}-#{version}.dmg"
   name "OpenSuperWhisper"
   desc "macOS dictation with local Whisper/Parakeet transcription"
   homepage "https://github.com/my-monkeys/OpenSuperWhisper"
