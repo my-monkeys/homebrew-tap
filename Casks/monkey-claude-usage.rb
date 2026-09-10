@@ -1,6 +1,6 @@
 cask "monkey-claude-usage" do
-  version "0.2.0"
-  sha256 "64a35b7d940e4a3541aca85a4bf68ee46c6524c1a769001de1cd2d47ec9c7a3a"
+  version "0.2.1"
+  sha256 "2abe813ac64c3fd702e3a5d351a8392ba39bf421b6c012c847715d08bf527b4c"
 
   # No `verified:` — Homebrew 6 deprecated it, and the download URL already sits under
   # the homepage host, which is what the default verification checks.
