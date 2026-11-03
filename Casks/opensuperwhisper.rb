@@ -1,13 +1,13 @@
 cask "opensuperwhisper" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.14.3"
+  version "0.15.0"
 
   on_arm do
-    sha256 "68b7e7945c53fb9d9938f30b5f9107c549a75a6339fb1423de8812eedebde35c"
+    sha256 "b2eebf096e899486f4d5f0b158ea080e2f97240248f18c60f38e1b91a736d6ac"
   end
   on_intel do
-    sha256 "36afeae48c10fc70d31dbbf4726ed3524b64dbed5729a3969562b5e5f0b89978"
+    sha256 "1952bf6c32f7fd9b2d2d18c682e62bd21f92c298fb789e09b9a037aa6e1cb9e9"
   end
 
   url "https://github.com/my-monkeys/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper-#{arch}-#{version}.dmg"
