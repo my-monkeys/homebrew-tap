@@ -1,6 +1,6 @@
 cask "monkey-battery" do
-  version "0.1.0"
-  sha256 "0e040cc43d70bd38d9d7f705f7a294fae99dda544be2546303b4ce65ce1b6aad"
+  version "0.1.1"
+  sha256 "1081f025fce1f93df7c8638c53eb695fb6bcb1454caac9d3a9c1a84a95309a02"
 
   # No `verified:` — Homebrew 6 deprecated it, and the download URL already sits under
   # the homepage host, which is what the default verification checks.
