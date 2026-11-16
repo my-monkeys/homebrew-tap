@@ -15,6 +15,9 @@ cask "opensuperwhisper" do
   desc "macOS dictation with local Whisper/Parakeet transcription"
   homepage "https://github.com/my-monkeys/OpenSuperWhisper"
 
+  deprecate! date: "2026-11-16", because: "was renamed", replacement_cask: "my-monkeys/tap/openmonkeywhisper"
+
+  conflicts_with cask: "openmonkeywhisper"
   depends_on macos: :sonoma
 
   app "OpenSuperWhisper.app"
